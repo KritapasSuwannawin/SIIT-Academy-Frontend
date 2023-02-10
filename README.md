@@ -2,18 +2,32 @@
 
 A one-stop online learning web application that allows SIIT students to efficiently study any classes on their own time.
 
-This client-side website uses backend services from the repository https://github.com/6222780981/SIIT-Academy-Backend
+This project was done as a part of DES424 Cloud-Based Application Development Course at SIIT, Thammasat University, Thailand
 
-Libraries used include:
+This client-side website uses backend services from the repository https://github.com/KritapasSuwannawin/SIIT-Academy-Backend
+
+Libraries and services used include:
 
 - ReactJS
 - React Router
 - Redux Toolkit
 - Firebase
-- Axios
-- Read Excel File
+  - Cloud Storage
+  - Authentication
 
-The website can be accessed at https://siit-academy.as.r.appspot.com
+**Google Cloud Platform**'s products used include:
+
+- Frontend Server
+  - App Engine
+- CI/CD service
+  - Cloud Build
+- CDN service
+  - Cloud CDN
+  - Cloud Load Balancing
+- IAM service
+  - Cloud IAM
+
+The website can be accessed at https://siit-academy.as.r.appspot.com _(Note that the website is currently unavailable due to the expiration of the GCP free trial period)_
 
 The final documents are stored in a Google Drive folder at https://drive.google.com/drive/folders/17SFFIoJr7AtVOtwfr-feOGclUgTY3Edq
 
@@ -22,11 +36,13 @@ Other related links can be viewed at https://docs.google.com/document/d/19zHft1C
 ## How to run
 
 **Install dependencies**
+
 ```
 npm install
 ```
 
 **Run the server locally**
+
 ```
 npm start
 ```
